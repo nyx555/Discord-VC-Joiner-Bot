@@ -1,4 +1,4 @@
-# Arox Token VC Joiner Bot
+# Nyx Token VC Joiner Bot
 
 A Discord bot that allows you to join multiple accounts to a voice channel simultaneously using slash commands.
 
@@ -29,7 +29,7 @@ pip install discord.py websockets
 ```
 3. Create a Discord bot application at [Discord Developer Portal](https://discord.com/developers/applications)
 4. Copy your bot token
-5. Replace `YOUR_BOT_TOKEN_HERE` in `bot.py` with your actual bot token
+5. Add  `YOUR_BOT_TOKEN` in `config.json` with your actual bot token
 6. Invite the bot to your server with the following permissions:
    - Send Messages
    - Read Message History
