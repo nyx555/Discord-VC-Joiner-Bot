@@ -87,7 +87,7 @@ The bot includes comprehensive error handling for:
 
 ## Support
 
-For support, join our Discord server: discord.gg/r1ch
+For support, join our Discord server: discord.gg/nashedi
 
 ## License
 
