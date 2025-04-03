@@ -1,0 +1,175 @@
+2025-04-03 08:48:02,362 - INFO - logging in using static token
+2025-04-03 08:48:05,762 - INFO - Shard ID None has connected to Gateway (Session ID: 7c036dd7c2f26ebf8e669f9aeef9217b).
+2025-04-03 08:48:25,708 - INFO - logging in using static token
+2025-04-03 08:49:04,978 - INFO - Shard ID None has connected to Gateway (Session ID: 36084ffdc90cd775e295ebcb53ee0e53).
+2025-04-03 08:56:58,615 - INFO - logging in using static token
+2025-04-03 08:57:00,434 - ERROR - Unhandled exception in internal background task 'status_task'.
+Traceback (most recent call last):
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py", line 56, in status_task
+    await self.change_presence(activity=activity)
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 2151, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+2025-04-03 08:57:01,281 - INFO - Shard ID None has connected to Gateway (Session ID: 65a3b6f77ebbd6de43e3bcfce3328d94).
+2025-04-03 08:57:03,540 - INFO - Logged in as Nashedi Codez
+2025-04-03 09:01:56,983 - ERROR - Task exception was never retrieved
+future: <Task finished name='discord-ext-tasks: TokenJoiner.status_task' coro=<Loop._loop() done, defined at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py:207> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 271, in _loop
+    raise exc
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py", line 56, in status_task
+    async def status_task(self):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 2151, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+2025-04-03 09:02:00,136 - INFO - logging in using static token
+2025-04-03 09:02:01,875 - ERROR - Unhandled exception in internal background task 'status_task'.
+Traceback (most recent call last):
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py", line 72, in status_task
+    await self.change_presence(activity=activity)
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 2151, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+2025-04-03 09:02:02,831 - INFO - Shard ID None has connected to Gateway (Session ID: b0c08d2f01a127c4edfcf0940a6f6065).
+2025-04-03 09:02:05,042 - INFO - Logged in as Nashedi Codez
+2025-04-03 09:03:18,297 - ERROR - Task exception was never retrieved
+future: <Task finished name='discord-ext-tasks: TokenJoiner.status_task' coro=<Loop._loop() done, defined at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py:207> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 271, in _loop
+    raise exc
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py", line 72, in status_task
+    await self.change_presence(activity=activity)
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 2151, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+2025-04-03 09:03:22,171 - INFO - logging in using static token
+2025-04-03 09:03:24,122 - ERROR - Unhandled exception in internal background task 'status_task'.
+Traceback (most recent call last):
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py", line 72, in status_task
+    await self.change_presence(activity=activity)
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 2151, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+2025-04-03 09:03:24,945 - INFO - Shard ID None has connected to Gateway (Session ID: e613b92bb7d2ab1d8c5620831dd5fc67).
+2025-04-03 09:03:27,271 - INFO - Logged in as Nashedi Codez
+2025-04-03 09:06:47,013 - ERROR - Task exception was never retrieved
+future: <Task finished name='discord-ext-tasks: TokenJoiner.status_task' coro=<Loop._loop() done, defined at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py:207> exception=AttributeError("'NoneType' object has no attribute 'change_presence'")>
+Traceback (most recent call last):
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 271, in _loop
+    raise exc
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\ext\tasks\__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py", line 72, in status_task
+    )
+  File "C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\client.py", line 2151, in change_presence
+    await self.ws.change_presence(activity=activity, status=status_str)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'change_presence'
+2025-04-03 09:06:50,801 - INFO - logging in using static token
+2025-04-03 09:06:53,475 - INFO - Shard ID None has connected to Gateway (Session ID: b68b5d4e11bc6cadf12a60c50eb55623).
+2025-04-03 09:06:55,629 - INFO - Logged in as Nashedi Codez
+2025-04-03 09:09:14,253 - INFO - Attempting to connect with token: MTMyODI5Mj...
+2025-04-03 09:09:14,609 - INFO - Attempting to connect with token: MTMyODI5Mz...
+2025-04-03 09:09:14,634 - INFO - Attempting to connect with token: MTMyODI5ND...
+2025-04-03 09:09:14,635 - INFO - Attempting to connect with token: MTMyODI5ND...
+2025-04-03 09:09:14,636 - INFO - Attempting to connect with token: MTMyODMwMz...
+2025-04-03 09:09:14,646 - INFO - Attempting to connect with token: MTMyODMwMz...
+2025-04-03 09:09:14,647 - INFO - Attempting to connect with token: MTMyODMwNT...
+2025-04-03 09:09:14,648 - INFO - Attempting to connect with token: MTMyODMwNT...
+2025-04-03 09:09:16,500 - INFO - Token MTMyODMwNT... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,507 - INFO - Token MTMyODI5ND... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,509 - INFO - Token MTMyODI5ND... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,511 - INFO - Token MTMyODI5Mj... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,515 - INFO - Token MTMyODMwMz... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,539 - INFO - Token MTMyODI5Mz... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,541 - INFO - Token MTMyODMwNT... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:16,544 - INFO - Token MTMyODMwMz... joined voice channel 1357193621434007642 in server 1320019519430983712
+2025-04-03 09:09:57,780 - ERROR - Connection error for token MTMyODI5Mj...: received 4004 (private use) Authentication failed.; then sent 4004 (private use) Authentication failed.
+2025-04-03 09:50:24,955 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-39' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:24,962 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-40' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:24,964 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-41' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:24,966 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-42' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:24,970 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-43' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:24,972 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-44' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:24,974 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-45' coro=<TokenJoiner.connect_token() running at C:\Users\share\Desktop\Arox Coders\Arox - Token VC Joiner\bot.py:123> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]> cb=[gather.<locals>._done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:757]>
+2025-04-03 09:50:25,088 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='CommandTree-invoker' coro=<CommandTree._from_interaction.<locals>.wrapper() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\discord\app_commands\tree.py:1151> wait_for=<_GatheringFuture pending cb=[Task.task_wakeup()]>>
+2025-04-03 09:50:25,134 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-46' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,135 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-47' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,138 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-48' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,141 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-50' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,144 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-51' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,184 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-52' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,185 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-53' coro=<Connection.keepalive() running at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\site-packages\websockets\asyncio\connection.py:814> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\share\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py:912, Task.task_wakeup()]>>
+2025-04-03 09:50:25,302 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-117' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,310 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-118' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,311 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-119' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,312 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-120' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,313 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-121' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,314 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-122' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,316 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-123' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,318 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-124' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,320 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-125' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,322 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-126' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,324 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-127' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,325 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-128' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,327 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-129' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
+2025-04-03 09:50:25,330 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-130' coro=<<async_generator_athrow without __name__>()> exception=RuntimeError('aclose(): asynchronous generator is already running')>
+RuntimeError: aclose(): asynchronous generator is already running
